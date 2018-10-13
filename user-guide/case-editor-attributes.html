@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../style.css" title="Default style" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="user-guide.css" media="screen, projection" />
+<link rel="alternate" type="application/rss+xml" title="Foglyn News" href="http://www.foglyn.com/atom.xml" />
+<title>Case Editor: Attributes - Foglyn User Guide</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1><a class="foglynlink" href="../index.html">Foglyn</a></h1>
+<h2>Integrate FogBugz into Eclipse</h2>
+</div>
+<div id="navigation">
+<ul>
+<li class="webgen-menu-level1"><a href="../index.html">Foglyn</a></li>
+<li class="webgen-menu-level1"><a href="../screenshots/index.html">Screenshots</a></li>
+<li class="webgen-menu-level1"><a href="../download.html">Download</a></li>
+<li class="webgen-menu-level1 selected"><span>User Guide</span></li>
+<li class="webgen-menu-level1"><a href="../contact.html">Contact</a></li>
+</ul>
+</div>
+<div id="content" class="wide">
+<div class="doc-crumbs"><a href="index.html">Foglyn User Guide</a> &gt; <a href="case-editor.html">Editing FogBugz Cases</a> &gt; Case Editor: Attributes
+</div>
+<div class="doc-nav"><a class="doc-prev" href="case-editor-header.html" accesskey="p"><img src="images/prev.gif" alt="Previous"><br>Case Editor: Header</a> <a class="doc-next" href="case-editor-attachments.html" accesskey="n"><img src="images/next.gif" alt="Next"><br>Case Editor: Attachments</a></div>
+<div class="doc-content">
+<h2>Case Editor: Attributes</h2>
+<p><img class="block" alt="Attributes Section of Case Editor" title="Attributes Section of Case Editor" border="0" src="images/case-editor/case-editor-attributes-section.png"></p>
+<p>Attributes section contains various properties of case like <strong>Project</strong>, <strong>Area</strong> or <strong>Fix For</strong> (milestone), which correspond to highlighted parts in FogBugz web interface:
+</p>
+<p><img class="block" alt="Detail of FogBugz web interface" title="Detail of FogBugz web interface" border="0" src="images/case-editor/case-21.png"></p>
+<p>All attributes can be changed in the editor. <strong>Due Date</strong> and <strong>Current Estimate</strong> fields support various formats for entering new values. Supported formats for <strong>Due Date</strong> field include:
+</p>
+<ul>
+<li><strong>tomorrow</strong></li>
+<li><strong>next &lt;day of week&gt;</strong>, e.g. "next tuesday"
+</li>
+<li><strong>next week</strong> (equals to next monday)
+</li>
+<li><strong>+N days</strong>, e.g. &#8220;+3 days&#8221; which means three days after today
+</li>
+<li><strong>+N weeks</strong>, e.g. "+2 weeks"
+</li>
+<li><strong>+N months</strong></li>
+<li>exact date, format depends on your regional settings.</li>
+</ul>
+<p>It is also possible to specify exact due time, e.g. <strong>tomorrow, 10:30</strong>. When time is not specified, start of day is used (as configured in the FogBugz server).
+</p>
+<p>In all cases, exact due date/time that will be sent to FogBugz server is reported in decoration above the field:<br><img class="block" alt="Current Date" title="Current Date" border="0" src="images/case-editor/current-date.png"></p><img class="block" alt="How to Clear Due Date" title="How to Clear Due Date" border="0" src="images/case-editor/clearing-due-date.png"><p>Estimate in <strong>Current Estimate</strong> field should be written as number of days, hours and minutes in following format: &#8220;N days, N hours, N minutes&#8221;. Numbers without &#8220;days&#8221;, &#8220;hours&#8221; or &#8220;minutes&#8221; unit are treated as hours. Similarly to Due Date field, when entering new estimate, entered value is validated and displayed above the field:<br><img class="block" alt="Current Estimate" title="Current Estimate" border="0" src="images/case-editor/current-estimate.png"></p>
+<p class="note">Original Estimate cannot be changed, not even in the FogBugz web interface.</p>
+<p>Don&#8217;t forget to <strong>Submit</strong> changes back to the FogBugz repository.
+</p>
+<p><strong>Related Topics:</strong></p>
+<ul>
+<li><a target="_blank" class="external" href="http://www.fogcreek.com/FogBugz/docs/70/topics/basics/Projectsandareas.html">Projects and Areas (FogBugz 7.0 Online Help)</a></li>
+<li><a target="_blank" class="external" href="http://www.fogcreek.com/FogBugz/docs/70/topics/basics/Subcases.html">Breaking Down Tasks with Subcases (FogBugz 7.0 Online Help)</a></li>
+<li><a target="_blank" class="external" href="http://www.fogcreek.com/FogBugz/docs/70/topics/basics/Tags.html">Tags (FogBugz 7.0 Online Help)</a></li>
+<li><a target="_blank" class="external" href="http://www.fogcreek.com/FogBugz/docs/70/topics/schedules/Priorities.html">Priorities (FogBugz 7.0 Online Help)</a></li>
+<li><a target="_blank" class="external" href="http://www.fogcreek.com/FogBugz/docs/70/topics/schedules/Milestones.html">Milestones (FogBugz 7.0 Online Help)</a></li>
+</ul>
+</div>
+<div class="doc-nav"><a class="doc-prev" href="case-editor-header.html" accesskey="p"><img src="images/prev.gif" alt="Previous"><br>Case Editor: Header</a> <a class="doc-next" href="case-editor-attachments.html" accesskey="n"><img src="images/next.gif" alt="Next"><br>Case Editor: Attachments</a></div>
+</div>
+<div id="subcontent">
+</div>
+<div id="footer">
+<p>&copy; 2008, 2011 Peter Štibraný | <a class="foglynlink" href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a class="foglynlink" href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
+</div>
+</div> <!-- container -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5388171-1");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+} catch (err) { }
+</script>
+</body>
+</html>

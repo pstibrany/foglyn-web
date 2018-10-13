@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="repository, query, first steps"/>
+<meta name="description" content="How to create Task Repository, Query, how to work with FogBugz cases with Foglyn"/>
+<link rel="stylesheet" type="text/css" href="../style.css" title="Default style" media="screen,projection" />
+<link rel="alternate" type="application/rss+xml" title="Foglyn News" href="http://www.foglyn.com/atom.xml" />
+<title>First steps with Foglyn</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1><a class="foglynlink" href="../index.html">Foglyn</a></h1>
+<h2>Integrate FogBugz into Eclipse</h2>
+</div>
+<div id="navigation">
+<ul>
+<li class="webgen-menu-level1"><a href="../index.html">Foglyn</a></li>
+<li class="webgen-menu-level1"><a href="../screenshots/index.html">Screenshots</a></li>
+<li class="webgen-menu-level1"><a href="../download.html">Download</a></li>
+<li class="webgen-menu-level1"><a href="../user-guide/index.html">User Guide</a></li>
+<li class="webgen-menu-level1"><a href="../contact.html">Contact</a></li>
+</ul>
+</div>
+<div id="content">
+<h2>First steps with Foglyn</h2>
+<p>This tutorial will help you start using Foglyn. You will specify your
+FogBugz server and setup Foglyn to use your cases.</p>
+<h3>Adding Task Repository</h3>
+<p>First step in using Foglyn is configuring so-called <strong>Task
+Repository.</strong> Task repository is source of tasks, like FogBugz
+cases.</p>
+<p>To add your FogBugz server as task repository, you need to open <strong>Task
+Repositories</strong> view first.</p>
+<p>Select <strong>Window &gt; Show View &gt; Other</strong> in the menu at the
+top of the workbench and choose <strong>Mylyn &gt; Task Repositories</strong>
+view from list of views.</p>
+<img src='01-window-other.gif' alt='Select Window &gt; Show View &gt; Other' />
+<img src='02-select-task-repositories.gif' alt='Choose Mylyn &gt; Task Repositories view' />
+<p>In <strong>Task Repositories</strong> view select <strong>Add Task
+Repository</strong> button from the toolbar or context menu.</p>
+<img src='03-add-task-repository.gif' alt='Use Add Task Repository option from toolbar or context menu' />
+<p>In <strong>Add Task Repository</strong> dialog, select <strong>FogBugz
+repository (Foglyn plugin)</strong> and choose <strong>Next</strong>
+button.</p>
+<img src='04-fogbugz-repository.gif' alt='Select FogBugz repository' />
+<p>In the next page, you need to enter details about your FogBugz server.</p>
+<ul>
+<li>Server: location of server, for example http://ondemand.fogbugz.com/</li>
+<li>Label: custom name of server, for example "My FogBugz Server".</li>
+<li>User ID: your full name or email address, as known to FogBugz.</li>
+<li>Password: your FogBugz password.</li>
+</ul>
+<img src='05-repository-settings.gif' alt='Enter FogBugz server details' />
+<p>After you enter all these values, use <strong>Validate Settings</strong>
+button to check if Foglyn can connect to your server. When you are done, select
+<strong>Finish</strong> button.</p>
+<h3>Create new query</h3>
+<p>To work with your cases, you need to specify which cases should Foglyn
+present to you by creating a <strong>query</strong>. To create a query, go to
+<strong>Task Repositories</strong> view again, and select your new FogBugz
+repository you created in previous step. From context menu choose <strong>New
+Query&#8230;</strong> item.</p>
+<img src='06-add-query.gif' alt='Choose repository and create new query via context menu' />
+<p>Foglyn supports queries based on your filters defined in FogBugz. In
+<strong>Edit Repository Query</strong> dialog, simply choose your filter (for
+example <strong>My Cases</strong> filter), and click <strong>Finish</strong>
+button.</p>
+<img src='07-query-details.gif' alt='Choose filter and finish dialog' />
+<p>Your cases are visible in <strong>Task List</strong> view. To open this
+view, select <strong>Window &gt; Show View &gt; Other</strong> in the menu at
+the top of the workbench. In <strong>Show View</strong> dialog choose
+<strong>Mylyn &gt; Task List</strong> view from list of views.</p>
+<img src='08-select-task-list.gif' alt='Open Task List view' />
+<p>You have successfully completed this tutorial. You have added your FogBugz
+server and you can now see your FogBugz cases in <strong>Task List</strong>
+view. From here you can open your cases (by double-clicking) and start working
+with them.</p>
+<img src='09-task-list-detail.gif' alt='Task List view with FogBugz cases' />
+</div>
+<div id="subcontent">
+<div style="margin: 0 0 1em 0; text-align: center;">
+<a href="../download.html"><img src="../download.png" alt="Download now" /></a>
+</div>
+<div class="small box">
+<h2>News</h2>
+<h4>2011-10-10</h4>
+<p>Foglyn 1.7: bug fixes and open-sourced.</p>
+<h4>2010-11-22</h4>
+<p>Foglyn 1.6.2 release fixes FogBugz 8 compatibility bug.</p>
+<br />
+<a href="../atom.xml" class="feed">Recent News</a>
+</div>
+<h2>Links</h2>
+<ul class="menublock">
+<li><a href="http://marketplace.eclipse.org/content/foglyn-integrate-fogbugz-eclipse-mylyn">Eclipse Marketplace</a></li>
+<li><a href="http://www.fogcreek.com/FogBUGZ/">FogBugz</a></li>
+<li><a href="http://www.eclipse.org/">Eclipse</a></li>
+<li><a href="http://www.eclipse.org/mylyn/">Mylyn</a></li>
+</ul>
+</div>
+<div id="footer">
+<p>&copy; 2008, 2011 Peter Štibraný | <a class="foglynlink" href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a class="foglynlink" href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
+</div>
+</div> <!-- container -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5388171-1");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+} catch (err) { }
+</script>
+</body>
+</html>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Foglyn News</title>
+  <subtitle>Integrate FogBugz into Eclipse!</subtitle>
+  <link href="http://www.foglyn.com/atom.xml" rel="self"/>
+  <link href="http://www.foglyn.com/" rel="alternate"/>
+  <author>
+    <name>Peter Štibraný</name>
+    <email>support@foglyn.com</email>
+  </author>
+  <id>http://www.foglyn.com/</id>
+  <icon>/favicon.ico</icon>
+  <updated>2011-09-02T10:00:00Z</updated>
+ 
+  <entry>
+    <id>tag:foglyn.com,2011-09-02:/releases/foglyn-1.7</id>
+    <title>Foglyn 1.7</title>
+    <updated>2011-09-02T10:00:00Z</updated>
+    <link rel="alternate" href="http://www.foglyn.com/releases/foglyn-1.7.html" />
+    <content type="html" xml:base="http://www.foglyn.com/releases/foglyn-1.7.html">&lt;h2&gt;Foglyn 1.7 (October 2011)&lt;/h2&gt;
+
+&lt;p&gt;Foglyn 1.7 is contains bug-fixes accumulated for last two years. It also has simplified dialog for creating new queries, to help new users
+with Foglyn setup.&lt;/p&gt;
+
+&lt;p&gt;Foglyn 1.7 adds support for custom case states.&lt;/p&gt;
+
+&lt;p&gt;As of version 1.7, Foglyn is &lt;a href=&quot;../open-source.html&quot;&gt;open-source software.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p style=&quot;clear:both&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;&amp;laquo; List of all releases&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:foglyn.com,2009-10-20:/foglyn-installer/installer</id>
+    <title>Foglyn Installer</title>
+    <updated>2009-10-20T20:00:00Z</updated>
+    <link rel="alternate" href="http://www.foglyn.com/foglyn-installer/index.html" />
+    <content type="html" xml:base="http://www.foglyn.com/foglyn-installer/index.html">&lt;h2&gt;What is Foglyn Installer?&lt;/h2&gt;
+
+&lt;p&gt;Foglyn Installer is a completely new way of installing Foglyn to your Eclipse. It uses latest Equinox P2 technology
+to correctly integrate Foglyn plugins into applications based on Eclipse 3.4 (Ganymede) or Eclipse 3.5 (Galileo) platforms.&lt;/p&gt;
+
+&lt;p&gt;Foglyn Installer is a standalone single-download setup program which contains latest version of Foglyn and Mylyn.
+By downloading and running one file, it is possible to install Foglyn into any number of Eclipse applications, and also keep a backup
+copy for the future.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;../download.html&quot;&gt;Download Foglyn Installer Now!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Why use Foglyn Installer?&lt;/h3&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;Installer runs with administrative privileges on Windows. Thanks to this, it can update applications in system location like
+	&lt;code&gt;C:\Program Files&lt;/code&gt;. Standard update mechanism fails in this case. This is useful when installing Foglyn into
+	applications like Adobe Flex Builder, Aptana Studio, Zend Studio, etc.&lt;/li&gt;
+	
+	&lt;li&gt;Installer works offline. You can use it to update any number of applications without wasting your network bandwidth.
+	Since it includes Mylyn, you can also use Foglyn Installer for updating Mylyn to latest version.&lt;/li&gt;
+	
+	&lt;li&gt;Installer can add Foglyn into Eclipse 3.4 and Eclipse 3.5. It always uses update mechanism from latest version of Eclipse, which 
+	works much better than update mechanism in Eclipse 3.4 (Galileo).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Foglyn Installer is available from &lt;a href=&quot;../download.html&quot;&gt;Download&lt;/a&gt; section.&lt;/p&gt;
+
+&lt;h3&gt;How does Foglyn installer work?&lt;/h3&gt;
+
+&lt;p&gt;When Foglyn Installer starts, it automatically searches for your applications in predefined locations.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;
+&lt;img src=&quot;searching-for-eclipse-apps.png&quot; alt=&quot;Foglyn Installer searches for Eclipse applications&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;You can choose application where Foglyn will be installed.&lt;/p&gt;
+&lt;p style=&quot;text-align: center&quot;&gt;
+&lt;img src=&quot;select-target-application.png&quot; alt=&quot;Select target application&quot; /&gt;
+&lt;/p&gt;
+
+
+&lt;p&gt;After selecting target application, you will see what version of Foglyn and Mylyn is already installed, and which versions are available for installation.
+You can select components to install, although setup program is smart enough to preselect reasonable defaults, so simply clicking Next will work in majority of cases.
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;
+&lt;img src=&quot;components-to-install.png&quot; alt=&quot;Select components for installation&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;In the next step Foglyn Installer will compute the installation plan, and show it to you for confirmation. Here you can review the list of changes that will be done to your application and continue.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;
+&lt;img src=&quot;installation-plan.png&quot; alt=&quot;Installation plan&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;After installation finishes, you need to restart your target application for changes to take effect. Installation is complete now.&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;
+&lt;img src=&quot;installation-successful.png&quot; alt=&quot;Installation succeeded&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Why not to &lt;a href=&quot;../download.html&quot;&gt;try it yourself?&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3&gt;Possible problems&lt;/h3&gt;
+
+&lt;p&gt;Please run your target application at least once before using Foglyn Installer.
+In some cases, not all plugins that are part of application are already in installed state, and this installation finishes on first
+run. This step is normally invisible for the user, but may cause confusion for Foglyn Installer.&lt;/p&gt;
+
+&lt;p&gt;Installer tries to locate your P2 profile and update it.
+This procedure works with many Eclipse distributions
+and commercial applications, but it doesn't work when application uses shared profile.
+In such case you may get error message saying that it isn't
+possible to update the application. When this happens, you need to use
+other means for installing additional plugins.&lt;/p&gt;
+
+&lt;p&gt;
+    In some rare cases, Foglyn Installer will compute an installation plan
+	which suggests removing entire application. In situation like this, Installer 
+	will require your explicit confirmation before continuing, and &lt;em&gt;Next&lt;/em&gt;
+    button will be disabled. Usually this is not what you want. When this happens,
+	please return back to component selection screen and deselect all Mylyn components for installation.
+	This doesn't mean that Mylyn is bad in some way, but that the application
+	requires specific version of Mylyn which is already installed and it cannot be updated.
+&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:foglyn.com,2009-07-27:/releases/foglyn-1.6</id>
+    <title>Foglyn 1.6</title>
+    <updated>2009-07-28T10:00:00Z</updated>
+    <link rel="alternate" href="http://www.foglyn.com/releases/foglyn-1.6.html" />
+    <content type="html" xml:base="http://www.foglyn.com/releases/foglyn-1.6.html">&lt;h2&gt;Foglyn 1.6 (27th July 2009)&lt;/h2&gt;
+
+&lt;p&gt;Foglyn 1.6 introduces support for subcases and tags, two great new features of recently released FogBugz 7.&lt;/p&gt;
+
+&lt;div style=&quot;float: right; margin: 0 0 0 2em;&quot;&gt;
+&lt;a href=&quot;../screenshots/index.html&quot;&gt;
+&lt;img src=&quot;../screenshots/thumb-subcases-in-task-list.png&quot; alt=&quot;&quot;/&gt;&lt;br /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;h3&gt;New features&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Support for subcases: See your subcases in task list and change Parent Case in editor. (FogBugz 7 only)&lt;/li&gt;
+&lt;li&gt;Tags can also be edited and searched now. (Works with FogBugz 7 only)&lt;/li&gt;
+&lt;li&gt;It is now possible to specify which cases should be treated as complete. Three modes include &lt;em&gt;&quot;closed cases&quot;&lt;/em&gt; (default), &lt;em&gt;&quot;closed or resolved cases&quot;&lt;/em&gt;
+and &lt;em&gt;&quot;closed if mine, closed or resolved otherwise&quot;.&lt;/em&gt; Complete cases contribute to &quot;tasks progress&quot; and can be optionally hidden from Task List. Configuration is available
+in Repository Settings &amp;gt; Additional Settings.&lt;/li&gt;
+&lt;li&gt;&quot;Working On&quot; synchronization option has been moved from preferences page to repository settings. This option can now be configured separately for each repository.&lt;/li&gt;
+&lt;li&gt;Bugfixes in search dialog, attachment upload, and more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;clear:both&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;&amp;laquo; List of all releases&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:foglyn.com,2009-06-24:/releases/foglyn-1.5</id>
+    <title>Foglyn 1.5</title>
+    <updated>2009-06-24T10:00:00Z</updated>
+    <link rel="alternate" href="http://www.foglyn.com/releases/foglyn-1.5.html" />
+    <content type="html" xml:base="http://www.foglyn.com/releases/foglyn-1.5.html">&lt;h2&gt;Foglyn 1.5 (24th June 2009)&lt;/h2&gt;
+
+&lt;p&gt;Foglyn 1.5 is ready to take advantage of latest 
+&lt;a href=&quot;http://www.eclipse.org/galileo/&quot;&gt;Eclipse Galileo&lt;/a&gt;
+and &lt;a href=&quot;http://www.eclipse.org/mylyn/new/&quot;&gt;Mylyn 3.2&lt;/a&gt; releases!&lt;/p&gt;
+
+&lt;h3&gt;New features&lt;/h3&gt;
+
+&lt;div style=&quot;float: right; margin: 0 0 0 2em;&quot;&gt;
+&lt;a href=&quot;../screenshots/index.html&quot;&gt;
+&lt;img src=&quot;../releases/thumb-wiki-text-support.png&quot; alt=&quot;&quot;/&gt;&lt;br /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Foglyn 1.5 requires Mylyn 3.1 or later.&lt;/strong&gt; Foglyn doesn't work with Mylyn 3.0 anymore.&lt;/li&gt;
+
+&lt;li&gt;WikiText is now supported in Foglyn. WikiText is another great feature of
+Mylyn (since 3.1). It allows you to add formatting to your comments
+using simple wiki-syntax.  WikiText is supported when writing comment as well
+as for formatting comments entered by others. Wiki-syntax is easily readable even when not being formatted,
+so your teammates using FogBugz web interface can still read your comments.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div style=&quot;float: right; margin: 0 0 0 2em;&quot;&gt;
+&lt;a href=&quot;../screenshots/index.html&quot;&gt;
+&lt;img src=&quot;../releases/bugzid-pattern.png&quot; alt=&quot;&quot;/&gt;&lt;br /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;Foglyn now recognizes more patterns in case hyperlinks.&lt;/li&gt;
+
+&lt;li&gt;When Foglyn cannot activate your &quot;Working On&quot; case on FogBugz repository,
+it will show a warning in Progress View. It is also possible to disable Working
+On synchronization now in preferences.&lt;/li&gt;
+
+&lt;li&gt;Last, but not least ... Foglyn is now included in &lt;a href=&quot;http://tasktop.com/blog/eclipse/mylyn-connector-discovery&quot;&gt;
+Mylyn Connector Discovery,&lt;/a&gt; new feature of Mylyn 3.2 which aims to make installation
+of new connectors as simple as possible.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;clear:both&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;&amp;laquo; List of all releases&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:foglyn.com,2009-04-25:/releases/foglyn-1.4</id>
+    <title>Foglyn 1.4</title>
+    <updated>2009-04-25T17:00:00Z</updated>
+    <link rel="alternate" href="http://www.foglyn.com/releases/foglyn-1.4.html" />
+    <content type="html" xml:base="http://www.foglyn.com/releases/foglyn-1.4.html">&lt;h2&gt;Foglyn 1.4 (25th April 2009)&lt;/h2&gt;
+
+&lt;p&gt;Foglyn 1.4 is the most polished version of Foglyn released so far. It
+contains numerous bug-fixes, many of them reported by you, the Foglyn users.&lt;br /&gt;
+&lt;strong&gt;Thank you very much for your help!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3&gt;New features&lt;/h3&gt;
+
+&lt;div style=&quot;float: right; margin: 0 0 0 2em;&quot;&gt;
+&lt;a href=&quot;../screenshots/index.html&quot;&gt;
+&lt;img src=&quot;../releases/sortable-events.png&quot; alt=&quot;&quot;/&gt;&lt;br /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is now possible to show newest case events at the top of case editor. To
+toggle between oldest-first and newest-first press up/down arrow button at
+Edits section. Your preferred way of displaying cases will be used for all
+case editors opened in the future.&lt;/li&gt;
+
+&lt;li&gt;Foglyn now shows related cases in Attributes section of case editor, and
+enables quick navigation between them. Related cases are cases which FogBugz
+recognizes as 'related', which unfortunately doesn't include duplicates or
+cases sent by same correspondent.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 style=&quot;clear: both&quot;&gt;Note about FogBugz 7 (Beta)&lt;/h3&gt;
+
+&lt;p&gt;Although Foglyn 1.4 is released at the time when FogBugz 7 Beta is already
+available, Foglyn doesn't yet fully support it. There are known issues, and
+even some features that work fine with FogBugz 6 server are broken when working
+with Beta of FogBugz 7.&lt;/p&gt;
+
+&lt;p style=&quot;clear:both&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;&amp;laquo; List of all releases&lt;/a&gt;&lt;/p&gt;
+
+</content>
+  </entry>
+  <entry>
+    <id>tag:foglyn.com,2009-03-25:/releases/foglyn-1.3</id>
+    <title>Foglyn 1.3</title>
+    <updated>2009-03-25T20:00:00Z</updated>
+    <link rel="alternate" href="http://www.foglyn.com/releases/foglyn-1.3.html" />
+    <content type="html" xml:base="http://www.foglyn.com/releases/foglyn-1.3.html">&lt;h2&gt;Foglyn 1.3 (25th March 2009)&lt;/h2&gt;
+
+&lt;h3&gt;Notable features and bug fixes&lt;/h3&gt;
+
+&lt;div style=&quot;float: right&quot;&gt;
+&lt;a href=&quot;../screenshots/index.html&quot;&gt;
+&lt;img src=&quot;../screenshots/thumb-case-hyperlinking.gif&quot; alt=&quot;Mouse pointer hovering above case link&quot;/&gt;&lt;br /&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Foglyn 1.3 properly supports case hyperlinking feature of Mylyn. You can now
+quickly open your case by holdind down CTRL key (or Command key on Mac), and
+clicking case link. If you have multiple FogBugz repositories, you can also select
+correct repository to use. Default repository can be set per project in Project
+Properties dialog.&lt;/li&gt;
+
+&lt;li&gt;When creating new case in Foglyn, previously used values for project, area,
+priority, etc., are set as default values in new case. This is useful when
+creating multiple cases for same project, or for same person. You don't need to
+choose correct project/area/person/fix fox/... again and again in each new
+case.&lt;/li&gt;
+
+&lt;li&gt;Added support for new license types (to be announced soon).&lt;/li&gt;
+
+&lt;li&gt;Foglyn can now detect FogBugz repositories which require use of HTTPS
+protocol. No more &lt;em&gt;&quot;Fogbugz responded with unexpected HTTP response code: 302&quot;&lt;/em&gt;
+errors.&lt;/li&gt;
+
+&lt;li&gt;Bug: After opening case with incoming changes, editor was not showing new case
+events. Fixed.&lt;/li&gt;
+
+&lt;li&gt;
+&lt;img style=&quot;float:right&quot; src=&quot;kiwi-repository.png&quot; alt=&quot;&quot; /&gt;
+Kiwi bird is now used to represent FogBugz repository and cases :-) &lt;br /&gt; (Used with permission from Fog Creek Software)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;clear:both&quot;&gt;&lt;a href=&quot;index.html&quot;&gt;&amp;laquo; List of all releases&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:foglyn.com,2009-02-11:/releases/foglyn-1.2</id>
+    <title>Foglyn 1.2</title>
+    <updated>2009-02-11T09:00:00Z</updated>
+    <link rel="alternate" href="http://www.foglyn.com/releases/foglyn-1.2.html" />
+    <content type="html" xml:base="http://www.foglyn.com/releases/foglyn-1.2.html">&lt;h2&gt;Foglyn 1.2 (11th February 2009)&lt;/h2&gt;
+
+&lt;h3&gt;New features:&lt;/h3&gt;
+
+&lt;div style=&quot;float: right&quot;&gt;
+&lt;a href=&quot;../screenshots/index.html&quot;&gt;&lt;img src=&quot;../screenshots/thumb-editing-due-time.gif&quot; alt=&quot;Due time edit field detail&quot;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Estimate values are displayed in the case editor, and current estimate can be
+changed as well. Foglyn tries hard to understand estimate entered by user,
+and immediately reports if value is correct or not. Estimate of Mylyn task is
+changed from FogBugz value too.  (Note that changing of estimate doesn't work
+with some older FogBugz versions)&lt;/li&gt;
+&lt;li&gt;Due date/time is editable in case editor. Various due date formats are supported.&lt;/li&gt;
+&lt;li&gt;When task is activated/deactivated in Eclipse, Foglyn reports this task to
+FogBugz. This enables &quot;Working On&quot; feature of FogBugz to track tasks from Mylyn.
+(Foglyn reports all cases which have estimate, and are not closed)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Release Notes&lt;/h3&gt;
+
+&lt;p&gt;To fetch due time and estimates for existing tasks, please do the following:
+expand your query in Task List, select all tasks inside your query and start
+synchronization via context-menu or keyboard shortcut.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center; margin: 1em 0 2em;&quot;&gt;
+&lt;img src=&quot;synchronize-tasks.png&quot; alt=&quot;Manual task synchronization&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;index.html&quot;&gt;&amp;laquo; List of all releases&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+  <entry>
+    <id>tag:foglyn.com,2009-01-07:/releases/foglyn-1.1</id>
+    <title>Foglyn 1.1</title>
+    <updated>2009-01-07T09:00:00Z</updated>
+    <link rel="alternate" href="http://www.foglyn.com/releases/foglyn-1.1.html" />
+    <content type="html" xml:base="http://www.foglyn.com/releases/foglyn-1.1.html">&lt;h2&gt;Foglyn 1.1 (7th January 2009)&lt;/h2&gt;
+
+&lt;h3&gt;New features&lt;/h3&gt;
+
+&lt;div style=&quot;float: right&quot;&gt;
+&lt;a href=&quot;../screenshots/index.html&quot;&gt;&lt;img src=&quot;../screenshots/thumb-advanced-search.gif&quot; alt=&quot;Advanced Search Dialog&quot;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Advanced search which uses search options from FogBugz&lt;/li&gt;
+&lt;li&gt;Task queries based on advanced search feature. There is no need to create
+filter in FogBugz web interface to use cases in Foglyn now&lt;/li&gt;
+&lt;li&gt;Editing of queries (both filter-based and search-based)&lt;/li&gt;
+&lt;li&gt;Asynchronous loading of tasks data, which makes query synchronization and searching faster&lt;/li&gt;
+&lt;li&gt;Progress messages are reported during long-running tasks&lt;/li&gt;
+&lt;li&gt;Better task-cancellation support: cancelling task synchronization, download
+of attachment, or other long-running jobs should now work correctly&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3&gt;Bug fixes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Big vertical space in case editor&lt;/li&gt;
+&lt;li&gt;Don't display [+]/[-] buttons in case editor if event cannot be expanded&lt;/li&gt;
+&lt;li&gt;Small fixes here and there as usual :-)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;index.html&quot;&gt;&amp;laquo; List of all releases&lt;/a&gt;&lt;/p&gt;
+</content>
+  </entry>
+</feed>
+

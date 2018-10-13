@@ -1,0 +1,6 @@
+User-Agent: *
+Disallow: /not-found.html
+Allow: /
+
+Sitemap: http://www.foglyn.com/sitemap.xml
+

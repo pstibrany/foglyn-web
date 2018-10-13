@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../style.css" title="Default style" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="user-guide.css" media="screen, projection" />
+<link rel="alternate" type="application/rss+xml" title="Foglyn News" href="http://www.foglyn.com/atom.xml" />
+<title>WikiText Integration - Foglyn User Guide</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1><a class="foglynlink" href="../index.html">Foglyn</a></h1>
+<h2>Integrate FogBugz into Eclipse</h2>
+</div>
+<div id="navigation">
+<ul>
+<li class="webgen-menu-level1"><a href="../index.html">Foglyn</a></li>
+<li class="webgen-menu-level1"><a href="../screenshots/index.html">Screenshots</a></li>
+<li class="webgen-menu-level1"><a href="../download.html">Download</a></li>
+<li class="webgen-menu-level1 selected"><span>User Guide</span></li>
+<li class="webgen-menu-level1"><a href="../contact.html">Contact</a></li>
+</ul>
+</div>
+<div id="content" class="wide">
+<div class="doc-crumbs"><a href="index.html">Foglyn User Guide</a> &gt; <a href="mylyn.html">Mylyn</a> &gt; WikiText Integration
+</div>
+<div class="doc-nav"><a class="doc-prev" href="task-completion.html" accesskey="p"><img src="images/prev.gif" alt="Previous"><br>Task Completion</a> <a class="doc-next" href="registering-foglyn.html" accesskey="n"><img src="images/next.gif" alt="Next"><br>Registering Foglyn</a></div>
+<div class="doc-content">
+<h2>WikiText Integration</h2>
+<p>WikiText is a Mylyn component that allows you to format text using Wiki syntax. Wiki syntax uses simple formatting markup,
+which is readable even without being fully formatted. This is example of Textile markup:
+</p><pre class="example">*Text in asterisks* is formatted as bold, _text within underscores_ is italics, and
+this is "a link pointing to Foglyn website":http://www.foglyn.com/.
+</pre><p>When formatted, above text would be displayed as:</p>
+<p class="example"><strong>Text in asterisks</strong> is formatted as bold, <em>text within underscores</em> is italics, and this is <a target="_blank" class="external" href="http://www.foglyn.com/">a link pointing to Foglyn website</a>.
+</p>
+<p>Foglyn takes advantage of WikiText when displaying and for entering FogBugz comments. If you want to use same formatting possibilities,
+you need to select you preferred Wiki syntax in Repository Task Properties dialog first.<br><img class="block" alt="Wiki Syntax configuration in Repository Task properties" title="Wiki Syntax configuration in Repository Task properties" border="0" src="images/repository-task-editor-settings.png"></p>
+<p>Now you can use simple formatting markup when entering your comments. Here we use Textile markup, which consists of <code>h1.</code>, <code>h2.</code>, asterisks around bold text, and asterisks at the beginning of lines to produce a list:<br><img class="block" alt="New comment with Textile markup" title="New comment with Textile markup" border="0" src="images/wiki-formatting-entering-comment.png"></p>
+<p>You can see that WikiText even provides you with content assist for text completion. In the screenshot, it suggests cases
+starting with number 2.
+</p>
+<p>When this comment is sent to the FogBugz, Foglyn will format it as follows:<br><img class="block" alt="Formatted comment displayed in the case editor" title="Formatted comment displayed in the case editor" border="0" src="images/wiki-formatted-comment.png"></p>
+<p>Comment is still stored as a plain text in the FogBugz server, and is readable even without being formatted. Here is how FogBugz
+displays same comment in the web interface:<br><img class="block" alt="Same comment, this time in FogBugz web interface" title="Same comment, this time in FogBugz web interface" border="0" src="images/wiki-comment-in-fogbugz.png"></p>
+<p><strong>Related Topics:</strong></p>
+<ul>
+<li><a href="http://help.eclipse.org/galileo/topic/org.eclipse.mylyn.wikitext.help.ui/help/Mylyn%20WikiText%20User%20Guide.html" target="_blank" class="external">WikiText User Guide</a></li>
+</ul>
+</div>
+<div class="doc-nav"><a class="doc-prev" href="task-completion.html" accesskey="p"><img src="images/prev.gif" alt="Previous"><br>Task Completion</a> <a class="doc-next" href="registering-foglyn.html" accesskey="n"><img src="images/next.gif" alt="Next"><br>Registering Foglyn</a></div>
+</div>
+<div id="subcontent">
+</div>
+<div id="footer">
+<p>&copy; 2008, 2011 Peter Štibraný | <a class="foglynlink" href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a class="foglynlink" href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
+</div>
+</div> <!-- container -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5388171-1");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+} catch (err) { }
+</script>
+</body>
+</html>

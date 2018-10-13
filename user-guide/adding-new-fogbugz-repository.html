@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../style.css" title="Default style" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="user-guide.css" media="screen, projection" />
+<link rel="alternate" type="application/rss+xml" title="Foglyn News" href="http://www.foglyn.com/atom.xml" />
+<title>Adding new FogBugz repository - Foglyn User Guide</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1><a class="foglynlink" href="../index.html">Foglyn</a></h1>
+<h2>Integrate FogBugz into Eclipse</h2>
+</div>
+<div id="navigation">
+<ul>
+<li class="webgen-menu-level1"><a href="../index.html">Foglyn</a></li>
+<li class="webgen-menu-level1"><a href="../screenshots/index.html">Screenshots</a></li>
+<li class="webgen-menu-level1"><a href="../download.html">Download</a></li>
+<li class="webgen-menu-level1 selected"><span>User Guide</span></li>
+<li class="webgen-menu-level1"><a href="../contact.html">Contact</a></li>
+</ul>
+</div>
+<div id="content" class="wide">
+<div class="doc-crumbs"><a href="index.html">Foglyn User Guide</a> &gt; <a href="getting-started.html">Getting Started</a> &gt; Adding new FogBugz repository
+</div>
+<div class="doc-nav"><a class="doc-prev" href="getting-started.html" accesskey="p"><img src="images/prev.gif" alt="Previous"><br>Getting Started</a> <a class="doc-next" href="task-list.html" accesskey="n"><img src="images/next.gif" alt="Next"><br>Task List Basics</a></div>
+<div class="doc-content">
+<h2>Adding new FogBugz repository</h2>
+<p>You can configure new FogBugz repository directly from the <em>Task List</em> view by clicking <strong>New Task</strong> button <img alt="New Task" title="New Task" border="0" src="images/new-task-button.png"> and selecting <strong>Add Repository ...</strong> from the menu.
+</p>
+<p><img class="block" border="0" src="images/task-list-add-repository.png"></p>
+<p class="note">You can open Task List view by using <em>Window &gt; Show View &gt; Other ...</em> and selecting <em>Tasks &gt; Task List</em> from the list of available views.
+</p>
+<p>After using <strong>Add Repository ...</strong> command, dialog with known repository types will open.
+</p>
+<p><img class="block" alt="Add Task Repository wizard step 1: choose type of repository" title="Add Task Repository wizard step 1: choose type of repository" border="0" src="images/add-task-repository-dialog.png"></p>
+<p>Choose <strong>FogBugz</strong>, and go to <strong>Next</strong> step.
+</p>
+<p>In following dialog, you need to specify:</p>
+<ul>
+<li><strong>Server:</strong> this is the full address of your FogBugz repository, e.g. <code>http://example.fogbugz.com/</code></li>
+<li><strong>Label:</strong> how will your repository be called in Eclipse
+</li>
+<li><strong>User ID:</strong> your full name or email address
+</li>
+<li><strong>Password:</strong> your password. You can choose to save your password to avoid typing it again (recommended).
+</li>
+</ul>
+<p><img class="block" alt="Add Task Repository wizard step 2: Enter information about your repository" title="Add Task Repository wizard step 2: Enter information about your repository" border="0" src="images/add-task-repository-dialog2.png"></p>
+<p class="note">If you want to use WikiText formatting for your comments, you can optionally configure your preferred Wiki syntax in <strong>Task Editor Settings</strong> section. Learn more about <a href="wikitext-integration.html">WikiText integration in Foglyn</a></p>
+<p>Use <img alt="Validate Settings" title="Validate Settings" border="0" src="images/validate-settings-button.png"> button to check if your new repository is configured correctly. Validate Settings will contact FogBugz server and use supplied
+User ID and Password to log-in. When validation succeeds, press <strong>Finish</strong> button.
+</p>
+<p>List of configured repositories is available in <strong>Task Repository</strong> view, which can be accessed by <em>Window &gt; Show View &gt; Other</em> and selecting <em>Tasks &gt; Task Repositories.</em> It is possible to add, modify or remove repositories in this view.
+</p>
+<p><img class="block" alt="Task Repositories view" title="Task Repositories view" border="0" src="images/task-repositories-view.png"></p>
+<p>After configuring new repository, you need to <a href="task-list.html">configure one or more queries.</a>
+</p>
+<p><strong>Related Topics:</strong></p>
+<ul>
+<li><a href="http://help.eclipse.org/galileo/topic/org.eclipse.mylyn.help.ui/userguide/Task-Repositories.html" target="_blank" class="external">Task Repositories (Tasks User Guide)</a></li>
+<li><a href="task-list.html">Task List Basics</a></li>
+<li><a href="task-completion.html">Task Completion</a></li>
+</ul>
+</div>
+<div class="doc-nav"><a class="doc-prev" href="getting-started.html" accesskey="p"><img src="images/prev.gif" alt="Previous"><br>Getting Started</a> <a class="doc-next" href="task-list.html" accesskey="n"><img src="images/next.gif" alt="Next"><br>Task List Basics</a></div>
+</div>
+<div id="subcontent">
+</div>
+<div id="footer">
+<p>&copy; 2008, 2011 Peter Štibraný | <a class="foglynlink" href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a class="foglynlink" href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
+</div>
+</div> <!-- container -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5388171-1");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+} catch (err) { }
+</script>
+</body>
+</html>

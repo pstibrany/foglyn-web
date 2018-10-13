@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="../style.css" title="Default style" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="user-guide.css" media="screen, projection" />
+<link rel="alternate" type="application/rss+xml" title="Foglyn News" href="http://www.foglyn.com/atom.xml" />
+<title>Task List Basics - Foglyn User Guide</title>
+</head>
+<body>
+<div id="container">
+<div id="header">
+<h1><a class="foglynlink" href="../index.html">Foglyn</a></h1>
+<h2>Integrate FogBugz into Eclipse</h2>
+</div>
+<div id="navigation">
+<ul>
+<li class="webgen-menu-level1"><a href="../index.html">Foglyn</a></li>
+<li class="webgen-menu-level1"><a href="../screenshots/index.html">Screenshots</a></li>
+<li class="webgen-menu-level1"><a href="../download.html">Download</a></li>
+<li class="webgen-menu-level1 selected"><span>User Guide</span></li>
+<li class="webgen-menu-level1"><a href="../contact.html">Contact</a></li>
+</ul>
+</div>
+<div id="content" class="wide">
+<div class="doc-crumbs"><a href="index.html">Foglyn User Guide</a> &gt; <a href="getting-started.html">Getting Started</a> &gt; Task List Basics
+</div>
+<div class="doc-nav"><a class="doc-prev" href="adding-new-fogbugz-repository.html" accesskey="p"><img src="images/prev.gif" alt="Previous"><br>Adding new FogBugz repository</a> <a class="doc-next" href="new-query.html" accesskey="n"><img src="images/next.gif" alt="Next"><br>New Query Dialog</a></div>
+<div class="doc-content">
+<h2>Task List Basics</h2>
+<p>This section describes basics of <em>Task List</em> view. If you want to learn more about Task List functionality, for example how to create new task, how to schedule tasks
+for different days, task progress indicators or full discussion about tasks states, please read <a href="http://help.eclipse.org/galileo/topic/org.eclipse.mylyn.help.ui/userguide/Mylyn%20Reference.html" target="_blank" class="external">the Task List documentation from Tasks User Guide.</a></p>
+<p class="note">Term <strong>Task</strong> is used in Mylyn plug-in and also in <em>Task List</em> view, while term <strong>Case</strong> is used in FogBugz. Both terms have the same meaning in this user guide.
+</p>
+<p>Cases from your FogBugz repository will be displayed in <em>Task List</em> view. This view has a lot of functionality, but for a quick-start, let&#8217;s take a look at two most important concepts: task states, and queries.
+</p>
+<p><img class="block" alt="Task List View" title="Task List View" border="0" src="images/tasks-list.png"></p>
+<p>Tasks in the list have various states, based on your interaction with them. Unread tasks are tasks with new changes, which you haven&#8217;t seen yet. We say that these tasks have incoming changes (coming from repository). When you open and edit the task, it will have local modifications which haven&#8217;t been sent to FogBugz repository yet (outgoing changes). Following UI Legend explains meaning of various icons which are displayed in the Task List.</p>
+<p><img class="block" alt="Tasks UI Legend" title="Tasks UI Legend" border="0" src="images/tasks-ui-legend.png"></p>
+<p id="queries">Task List uses <strong>Queries</strong> to specify which tasks are available in the list. To create new query, open context-menu in Task List (by right-clicking
+inside the view), and choose <strong>New &gt; Query</strong>. On the next screen select your FogBugz repository, and press Next.
+</p>
+<p>Foglyn supports queries based on FogBugz filters, or queries based on search options. Since Foglyn 1.7 you can use one of
+preexisting options to quickly create new query.
+</p>
+<p><strong>Related Topics:</strong></p>
+<ul>
+<li><a href="new-query.html">New Query Dialog</a></li>
+<li><a href="http://help.eclipse.org/galileo/topic/org.eclipse.mylyn.help.ui/userguide/Mylyn%20Reference.html" target="_blank" class="external">Task List (Tasks User Guide)</a></li>
+</ul>
+</div>
+<div class="doc-nav"><a class="doc-prev" href="adding-new-fogbugz-repository.html" accesskey="p"><img src="images/prev.gif" alt="Previous"><br>Adding new FogBugz repository</a> <a class="doc-next" href="new-query.html" accesskey="n"><img src="images/next.gif" alt="Next"><br>New Query Dialog</a></div>
+</div>
+<div id="subcontent">
+</div>
+<div id="footer">
+<p>&copy; 2008, 2011 Peter Štibraný | <a class="foglynlink" href="http://andreasviklund.com/templates/" title="Original CSS template design">Original design</a> by <a class="foglynlink" href="http://andreasviklund.com/" title="Andreas Viklund">Andreas Viklund</a></p>
+</div>
+</div> <!-- container -->
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-5388171-1");
+pageTracker._setDomainName("none");
+pageTracker._setAllowLinker(true);
+pageTracker._trackPageview();
+} catch (err) { }
+</script>
+</body>
+</html>
